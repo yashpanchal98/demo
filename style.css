@@ -2,4 +2,36 @@ body {
     padding: 0;
     margin: 0;
     background-color: blanchedalmond;
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 20px;
 }
